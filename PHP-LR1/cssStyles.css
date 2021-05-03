@@ -1,0 +1,206 @@
+/* определение кадров анимации */
+@keyframes moveRight {
+
+    /* начинаем анимацию с margin-left 3px */
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    /* завершаем анимацию с margin-left 500px*/
+    to {
+        transform: rotateZ(10000deg);
+    }
+}
+
+#a1 {
+    margin: 30px;
+
+    background-color: grey;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellowgreen;
+    transition: all 1s;
+}
+
+#a1:hover {
+    margin: 40px;
+    background-color: grey;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+#id11 {
+
+    width: 70px;
+    height: 70px;
+
+    /* имя анимации */
+
+    animation-name: moveRight;
+
+    /* продолжительность анимации */
+
+    animation-duration: 0.0001s;
+
+    /* проиграть анимацию до конца а потом в обратную сторону */
+
+    /* количество повторов */
+
+    animation-iteration-count: infinite;
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+
+
+
+
+
+#id10 {
+
+
+    transform: rotateX(0deg);
+    transition: all 2s;
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+#id20 {
+
+
+    transform: rotate(0deg);
+    transition: all 2s;
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+#id10:hover {
+
+    transform: rotateX(180deg);
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+#id20:hover {
+
+    transform: rotateY(180deg);
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+
+
+
+#id1 {
+    color: burlywood;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: brown;
+
+}
+
+
+
+ul#menu li {
+
+    color: white;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #fa2efa,
+        3px 3px 3px #fa2efa,
+        5px 5px 7px#fa2efa,
+        0 0 20px#fa2efa,
+        1px -1px 7px #fa2efa,
+        -1px 1px 7px #fa2efa,
+        1px -1px 7px#fa2efa,
+        1px 1px 7px #fa2efa,
+        -1px -1px 7px #fa2efa;
+
+    display: inline;
+
+    font-size: 30px;
+    font-family: Train One;
+    font-weight: 200;
+    transition: all 1s;
+}
+
+ul#menu li:hover {
+
+    font-size: 40px;
+    background-color: black;
+
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+ul#menu1 li {
+    height: 60px;
+    display: inline;
+    padding: 10px;
+    margin: 4px;
+    width: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0094ff;
+    /* тень */
+    -webkit-box-shadow: 2px 2px 2px #808080;
+    box-shadow: 2px 2px 2px #808080;
+    font-size: 23px;
+
+    transition: all 1s;
+}
+
+ul#menu1 li:hover {
+
+
+    font-size: 30px;
+    background-color: #b200ff;
+
+    /* вращение элемента относительно центра на 45 градусов по часовой стрелке */
+}
+
+
+#div {
+    height: 40px;
+    line-height: 30px;
+    height: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    word-spacing: 20px;
+
+}
+
+#div1 {
+    line-height: 30px;
+    height: 30px;
+    border-top: 2px solid black;
+}
+
+#h2 {
+    font-weight: 100;
+
+    background-color: black;
+    font-family: 'Baloo 2';
+    height: 90px;
+    color: white;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px #fa2efa,
+        3px 3px 3px #fa2efa,
+        5px 5px 7px#fa2efa,
+        0 0 20px#fa2efa,
+        1px -1px 7px #fa2efa,
+        -1px 1px 7px #fa2efa,
+        1px -1px 7px#fa2efa,
+        1px 1px 7px #fa2efa,
+        -1px -1px 7px #fa2efa;
+
+    margin: 0 auto;
+
+}
+
+#divA {
+    background-color: #808080;
+}
+
+#body {
+    /* background: radial-gradient(#93c3dd 1px, rgba(255, 255, 255, 0) 2px); */
+    /* background-size: 10px 10px; */
+    /* background: gray; */
+    margin: 0 auto;
+    width: 900px;
+}
