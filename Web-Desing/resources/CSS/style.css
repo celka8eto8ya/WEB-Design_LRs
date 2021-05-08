@@ -1,0 +1,149 @@
+body{
+    background-color: #1e1e1e;
+    background-image: url(http://www.barcelona-travelguide.com/images/leisure/estadio.jpg);
+    background-size: cover;
+    height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  
+    letter-spacing: 1px;
+}
+
+.container{
+  
+    margin: 0 auto ;
+    width: 70%;
+    font: #fff;
+
+}
+
+img{
+   width: 100px;
+   
+
+}
+
+.header{
+ width:  40px;
+ height: 20px;
+    margin: 0 auto ;
+    background-image: url(https://cdn.wallpapersafari.com/46/16/Ib2pZT.jpg);
+}
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+  }
+  
+  nav {
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgba(40, 38, 41, 0.979);
+    text-align: center;
+    border-radius: 6px;
+    font-family: "Kanit";
+    
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  .main > li {
+    margin: 0 2%;
+  }
+  .main > li a{
+    border-left:1px solid rgba(40, 38, 41, 0.979);
+  }
+  a {
+    padding: 10px 25px ;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Kanit:wght@700";
+    display: block;
+  
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+  
+    font-family: "Alfa+Slab+One";
+    font-weight: 800;
+  }
+  
+  a:hover {
+    border-radius: 4px;
+    opacity: 0.8;
+    background-color: #1ea2b9;
+  }
+  
+  .drop li {
+    opacity: 0;
+    transform-origin: top center;
+  }
+  
+  .drop li a {
+    background-color: rgba(23, 23, 50, 0.7);
+    padding: 10px 0;
+  }
+  
+  
+  
+  
+  
+  
+  /*------------- menu6 animation -------------------*/
+  
+  .main li:hover .menu6 li:first-of-type {
+    animation: menu6 .1s ease-in-out forwards;
+    animation-delay: 0.1s;
+  }
+  
+  .main li:hover .menu6 li:nth-of-type(2) {
+    animation: menu6 0.2s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  
+  .main li:hover .menu6 li:nth-of-type(3) {
+    animation: menu6 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu6 li:last-of-type {
+    animation: menu6 0.4s ease-in-out forwards;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes menu6 {
+    0% {
+      opacity: 0      ;
+      transform: scale(2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* my button style */
+  .white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: rgb(71, 177, 177);
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: sans-serif;
+  }
+  
+  .white-mode:hover {
+    background-color: #fff;
+    color: #122;
+  }
+
+
