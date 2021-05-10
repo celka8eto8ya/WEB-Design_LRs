@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt&display=swap" rel="stylesheet">
-
-    <link href="resources\CSS\style.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>05.KostiuchikAM(Web-Design)</title>
-</head>
-
-<body>
-
-    <div class="container">
-
-        <nav>
+ <nav>
             <ul class="main">
+
                 <li>
                     <a href="#">Home</a>
                     <ul class="drop menu" font-familie;>
@@ -76,41 +60,3 @@
                 </li>
             </ul>
         </nav>
-
-
-        <p></p>
-        <br>
-        <div>
-            <h3>La Liga</h3>
-            Приме́ра Дивисьо́н (исп. Primera División) профессиональной футбольной лиги Испании (исп. Liga de Fútbol
-            Profesional, LFP), известный также как Примера и Ла Лига (исп. La Liga) — профессиональная футбольная лига
-            высшего уровня в системе футбольных лиг Испании. Ла Лига считается одной из сильнейших лиг в мире[2].
-
-            На конец еврокубкового сезона 2017/18 годов Ла Лига занимает 1-е место в рейтинге национальных футбольных
-            ассоциаций УЕФА, который используется для определения представительства стран в еврокубках[3].
-        </div>
-        <br>
-        <div>
-            <a href="http://127.0.0.1:5500/new_htmlFile.html">
-                MyHtmlPage
-            </a>
-            <a href="https://www.google.by/">
-                Google
-            </a>
-
-        </div>
-        <div>
-            <img width="398px" height="300px" alt="CatNuber1" title="CatNuber1"
-                src="resources\image\laliga_spain_2020.png">
-            <img width="398px" height="300px" alt="CatNuber2" title="CatNuber2"
-                src="https://img4.goodfon.ru/original/1920x1080/0/c6/synthpop-synth-retrowave-solntse-muzyka-darkwave-gory-synth.jpg">
-        </div>
-
-    </div>
-
-
-
-
-</body>
-
-</html>
