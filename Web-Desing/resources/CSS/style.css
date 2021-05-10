@@ -1,4 +1,3 @@
-
 body{
     background-color: #792b2b;
     /*background-image: url(http://www.barcelona-travelguide.com/images/leisure/estadio.jpg);*/
@@ -101,7 +100,7 @@ ul {
     animation-delay: 0.2s;
   }
   
-  .main > li:hover .menu6  li:nth-of-type(2n) {
+  .main li:hover .menu6  li:nth-of-type(2n) {
     animation: menu6 0.25s ease-in-out forwards;
     animation-delay: 0.25s;
   }
