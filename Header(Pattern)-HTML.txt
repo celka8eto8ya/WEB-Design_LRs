@@ -3,7 +3,7 @@
 
                 <li>
                     <a href="#">Home</a>
-                    <ul class="drop menu" font-familie;>
+                    <ul class="drop menu6" font-familie;>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
@@ -11,7 +11,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Ratings</a>
-                    <ul class="drop menu">
+                    <ul class="drop menu6">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
@@ -19,7 +19,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Table</a>
-                    <ul class="drop menu">
+                    <ul class="drop menu6">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
@@ -35,7 +35,7 @@
                 </li>
 
                 <li><a href="#">contact</a>
-                    <ul class="drop menu">
+                    <ul class="drop menu6">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
@@ -43,7 +43,7 @@
                     </ul>
                 </li>
                 <li><a href="#">teams </a>
-                    <ul class="drop menu">
+                    <ul class="drop menu6">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
@@ -51,7 +51,7 @@
                     </ul>
                 </li>
                 <li><a href="#">about</a>
-                    <ul class="drop menu">
+                    <ul class="drop menu6">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">news</a></li>
                         <li><a href="#">contact</a></li>
