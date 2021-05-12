@@ -1,5 +1,5 @@
 body{
-  background-color: #792b2b;
+  background-color: #433b4b;
   /*background-image: url(http://www.barcelona-travelguide.com/images/leisure/estadio.jpg);*/
 
   background-size: cover;
@@ -33,7 +33,9 @@ margin: 0 auto ;
 
 
 ul {
+  /*Отключение кружочков всяких перед элементом */
   list-style: none;
+
 }
 
 nav {

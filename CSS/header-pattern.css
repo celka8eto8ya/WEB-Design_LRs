@@ -1,5 +1,5 @@
 body{
-  background-color: #792b2b;
+  background-color: #ab57b3;
   /*background-image: url(http://www.barcelona-travelguide.com/images/leisure/estadio.jpg);*/
 
   background-size: cover;
@@ -9,7 +9,9 @@ body{
   letter-spacing: 1px;
 }
 
+
 .container{
+  
   margin: 0 auto ;
   width: 70%;
   color: #fff;

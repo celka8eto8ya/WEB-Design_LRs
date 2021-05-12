@@ -22,6 +22,8 @@
     .tableFooter a{
      
       padding: 2px;
+      text-decoration: underline;
+    
     }
     
     .tableFooter a:hover{
