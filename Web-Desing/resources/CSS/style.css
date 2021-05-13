@@ -94,3 +94,56 @@ td[id="id2"] > li {
 
 
 
+.signIn{
+background-color: blueviolet;
+border-radius: 5px;
+  
+}
+.signInDiv{
+  background-color: rgb(170, 78, 78);
+  border-radius: 5px;
+  text-align: center; 
+}
+
+.h3Text{
+  margin: -10px 0 -15px 0; 
+  text-align: center;
+}
+
+.h4Text{
+  margin: 13px 0 8px 0; 
+  text-align: center;
+}
+
+.containerAuth
+{
+width: 350px;
+margin:0 0 0  330px ;
+}
+
+.buttonLink{
+background-color: rgb(140, 218, 62);
+width: 150px;
+margin: 20px 0 0 100px; 
+border-radius: 5px;
+}
+
+.buttonLink:hover{
+ 
+  background-color: rgb(44, 48, 39); 
+}
+
+input{
+  font-size:14px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(140, 218, 62);
+
+}
+
+input:focus{
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(45, 48, 48);
+
+}
