@@ -117,14 +117,14 @@ border-radius: 5px;
 
 .containerAuth
 {
-width: 350px;
+width: 380px;
 margin:0 0 0  330px ;
 }
 
 .buttonLink{
 background-color: rgb(140, 218, 62);
 width: 150px;
-margin: 20px 0 0 100px; 
+margin: 20px 0 0 115px; 
 border-radius: 5px;
 }
 
@@ -134,6 +134,7 @@ border-radius: 5px;
 }
 
 input{
+
   font-size:14px;
   border-radius: 5px;
   color: #fff;
@@ -147,3 +148,4 @@ input:focus{
   background-color: rgb(45, 48, 48);
 
 }
+
