@@ -154,3 +154,163 @@ input:focus{
 .LLRating{
 width: 930px;
 }
+
+
+
+.tableStat
+{
+  margin: 0 auto;
+  /* border-collapse: separate;  */
+  /* line-height: 20px; */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  rgba(30, 29, 31, 1);
+  color: #fff;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tableStat tr:nth-of-type(2n+1) {
+ 
+  /* background-color: rgb(170, 78, 78); */
+  background-color: #433b4b;
+
+}
+
+.tableStat tr:nth-of-type(1) {
+  width:25px;
+  font-size: 115%;
+  background-color: rgb(142, 223, 62);
+  opacity: .85;
+  font-weight: bold;
+ 
+}
+.tableStat td:nth-of-type(2) {
+  width:40px;
+}
+
+.tableStat td:nth-of-type(3) {
+  width:100px;
+  text-align: left;
+
+}
+.tableStat td:nth-of-type(4) {
+  width:30px;
+
+}
+
+.tableStat th {
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+.tableStat td {
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+
+
+.containerStat{
+
+  columns: 50px 3;
+    height: 410px;
+}
+
+
+
+.leaderBoard
+{
+  border-color: rgb(218, 221, 27);
+  
+border-style:solid;
+  background-color: rgba(30, 29, 31, 0.979);
+  background-image: url(https://interesnyefakty.org/wp-content/uploads/Foto-Messi-2.jpg);
+ /* background-position-y: 20px; */
+ background-size: contain;
+  width: 260px;
+ height: 371px;
+ border-radius: 10px;
+}
+.imgStat
+{
+  border-radius: 20em;
+  margin:-5px -5px 5px 15px;;
+  width: 230px;
+ /* src:url("messi.png");  */
+}
+
+
+
+.headerStat{
+  font-weight: normal;
+ margin: 0 auto;
+  background-color:rgba(30, 29, 31, 0.979);
+  text-align: center;
+  font-size: 120%;
+  border-radius: 6px;
+}
+
+
+
+
+
+.leaderBoard2
+{
+  border-color: rgb(218, 221, 27);
+  
+  border-style:solid;
+  background-color: rgba(30, 29, 31, 0.979);
+  /* background-image: url(https://interesnyefakty.org/wp-content/uploads/Foto-Messi-2.jpg); */
+ /* background-position-y: 20px; */
+ /* background-size: contain; */
+  width: 260px;
+ height: 374px;
+ border-radius: 10px;
+}
+.imgStat2
+{
+  border-radius: 20em;
+  margin:-5px -5px 5px 15px;;
+  width: 230px;
+ /* src:url("messi.png");  */
+}
+
+.imgStat2:hover
+{
+ 
+  /* width: 250px; */
+
+ /* src:url("messi.png");  */
+}
+.leaderBoard2:hover
+{
+  background-color: rgba(184, 78, 178, 0.979);
+ /* width:280px; */
+ height: 400px;
+ opacity: .9;
+
+
+ /* src:url("messi.png");  */
+}
+
+.headerStat2{
+  font-weight: normal;
+ /* margin: 0 auto; */
+  /* background-color:rgba(30, 29, 31, 0.979); */
+  /* text-align: center; */
+  /* font-size: 110%; */
+  /* border-radius: 6px; */
+margin:5px 0px 5px 0px;
+  text-indent: 20px;
+}
