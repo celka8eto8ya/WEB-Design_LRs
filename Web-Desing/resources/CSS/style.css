@@ -329,11 +329,27 @@ margin:5px 0px 5px 0px;
 }
 
 
+/* Exercise */
+/* ________ */
+
 
 #p0, #p3{
 text-indent: 680px;
 color:rgb(136, 230, 43);
 font-weight: bold;
+}
 
 
+.btnLink
+{
+  text-align: center;
+  width: 200px;
+  background-color: rgb(197, 55, 83);
+  border-radius: 10px;
+  margin: 0px 0px 0px 130px;
+}
+
+.divLinks
+{
+  columns: 2 20px;
 }
